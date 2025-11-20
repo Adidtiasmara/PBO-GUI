@@ -1,12 +1,24 @@
 # PBO-GUI  
-Perpustakaan sederhana PostgreSQL untuk praktikum PBO.
+Perpustakaan sederhana dengan tampilan GUI.
 
----
-
-## 📌 Praktikum
+## Praktikum
+- Koneksi ke PostgreSQL 
+- Tampilan GUI
 - CRUD Kategori
 - CRUD Anggota
-- Koneksi ke PostgreSQL melalui DBHelper
-- Tampilan GUI menggunakan Java Swing & JFrame
 
----
+## Folder
+lib/
+├── postgresql-42.7.8.jar #Driver PostgreSQL
+|
+src/
+├── backend/ 
+|   ├── Anggota.java
+|   ├── DBHelper.java
+|   ├── Kategori.java
+|   └── tes.java
+|
+└── frontend/ # Form GUI 
+    ├── FrmAnggota.java
+    ├── FrmKategori.java
+    └── TesBackend.java
