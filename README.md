@@ -6,6 +6,7 @@ Perpustakaan sederhana dengan tampilan GUI.
 - Tampilan GUI
 - CRUD Kategori
 - CRUD Anggota
+- CRUD BUKU
 
 
 
